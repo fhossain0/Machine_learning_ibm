@@ -56,7 +56,12 @@ Pairplots for Features
 # Seaboran Pairplots 
 ### Seaborn plots, feature correletions 
 - sns.pairplots(data, 
--               hue= 'species', size= 3)
+-               hue= 'species', size= 3) # hue means
+
+# Seaborn hexbin plot
+sns.jointplot(x= data['sepal_length'], 
+              y= data['sepal_width']
+              ,kind= 'hex')
 
 
 
