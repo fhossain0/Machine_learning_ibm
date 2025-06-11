@@ -62,7 +62,20 @@ Pairplots for Features
 sns.jointplot(x= data['sepal_length'], 
               y= data['sepal_width']
               ,kind= 'hex')
+**Note:** It's actually going to give density of where the most. So we will be see some darkers and weeker amount of hexagons where there's going to be a lot denser amount of the values, also able to show where most of the values are actually falling.
+also we can think about the reletiopnship between add and revenue and we had be able to see, the distribution of each as well as seeing where each of those values are most likely overalab.
 
 
+# Seaborn facetgrid
+
+If we want to really break it apart and see it across different categories, so similar to how we do a somewhat of a group by, we can use facet grid. we pass in our data. we are going to pass in our column, that#s what the column argument is going to be 
+
+### first plot statement
+plot= sns.Facetgrid(data, col= 'Species', margin_titles= True)
+plot.map(plt.hist, 'sepal_width', color= 'green')
+
+#second plot statement
+plot= sns.Facetgrid(data, col= 'species', margin_titles= True)
+plot.map(plt.hist, 'sepal_length', color= 'blue')
 
 
