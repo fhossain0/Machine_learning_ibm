@@ -35,15 +35,15 @@ Visualization can be in multiple ways
  plt.hist(Data.sepal_length, bins= 25) for histogrames easy to show
 
 # Customize and objectorianted form of matplotlib syntax
-fig, ax= plt.subplots()
-ax.barh(np.arange(10)
-         , data.sepal_width.iloc(:10)) # iloc choosing based on index number not label
+- fig, ax= plt.subplots()
+- ax.barh(np.arange(10)
+-         , data.sepal_width.iloc(:10)) # iloc choosing based on index number not label
 
 we can use tools to set position 
 # set position of ticks and tick labels 
-ax.set_yticks(np.arange(0.4, 10.4, 1.0))
-ax.set_yticklabels(np.arange(1, 11))
-ax.set(xlabel= 'xlabel', ylabel= 'ylabel', title= 'Title') 
+- ax.set_yticks(np.arange(0.4, 10.4, 1.0))
+- ax.set_yticklabels(np.arange(1, 11))
+- ax.set(xlabel= 'xlabel', ylabel= 'ylabel', title= 'Title') 
     
 
 
