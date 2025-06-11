@@ -15,6 +15,24 @@ Data Wrangling :
 Matplotlib, seaborn
 
 sample= data.sample(n= 5, replace= True)
-print(sample.iloc[:, -3:])
+print(sample.iloc[:, -3:]) #### Positioning using index not not labels all rows and column from negetively three to all 
+
+- There are many reasons to consider random samples from Dataframes
+- For large data, a random sample can make computation easier
+- We may want to over or under sample observations when outcomes are uneven
+
+# Visualization Libraries 
+Visualization can be in multiple ways 
+- Matplotlib
+- pandas(Via Matplotlib)
+- Seabon
+  - Statistically - focused plotting methods
+  - Global Preferences incorporated by matplotlib
+  - also Seaborn preferences are incorporated with matplotlib
+
+ after importing matplotlib as plt 
+
+ plt.plot(data.sepal_length, data.sepal_width, ls='', marker= '0', label= 'Sepal') this can be easy to to draw a simple graph
+    
 
 
