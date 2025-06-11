@@ -50,7 +50,14 @@ we can use tools to set position
 # Grouping Data 
 # Pandas dataFrame approach
 - data.groupby('species').mean()
-- .plot(color= ['red', 'blue', 'black', 'green'], fontsize= 10.0, figsize= (4,4)) # figsize is figure size 
+- .plot(color= ['red', 'blue', 'black', 'green'], fontsize= 10.0, figsize= (4,4)) # figsize is figure size
+
+Pairplots for Features 
+# Seaboran Pairplots 
+### Seaborn plots, feature correletions 
+- sns.pairplots(data, 
+-               hue= 'species', size= 3)
+
 
 
 
