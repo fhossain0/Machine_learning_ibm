@@ -71,11 +71,11 @@ also we can think about the reletiopnship between add and revenue and we had be 
 If we want to really break it apart and see it across different categories, so similar to how we do a somewhat of a group by, we can use facet grid. we pass in our data. we are going to pass in our column, that#s what the column argument is going to be 
 
 ### first plot statement
-plot= sns.Facetgrid(data, col= 'Species', margin_titles= True)
-plot.map(plt.hist, 'sepal_width', color= 'green')
+- plot= sns.Facetgrid(data, col= 'Species', margin_titles= True)
+- plot.map(plt.hist, 'sepal_width', color= 'green')
 
-#second plot statement
-plot= sns.Facetgrid(data, col= 'species', margin_titles= True)
-plot.map(plt.hist, 'sepal_length', color= 'blue')
+# second plot statement
+- plot= sns.Facetgrid(data, col= 'species', margin_titles= True)
+- plot.map(plt.hist, 'sepal_length', color= 'blue')
 
 
