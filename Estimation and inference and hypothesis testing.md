@@ -1,3 +1,16 @@
+Estimation Vs inference
+# Definition:
+- Estimation is the process of calculating an approximate value of a population parameter (like mean, proportion, or standard deviation) based on sample data.
+- Inference is the broader process of using sample data to draw conclusions or make decisions about a population, which includes estimation, hypothesis testing, and prediction.
+
+
+
+
+
+
+
+
+
 # CI inside otf the barplots 
 CI= confidence interval: Imagine you ask 10 people how much they like a product, and you get an average score (mean). But if you asked another 10 people, the average might be different.
 
