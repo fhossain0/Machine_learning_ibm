@@ -11,6 +11,11 @@ Estimation Vs inference
 
 
 
+
+
+
+
+
 # CI inside otf the barplots 
 CI= confidence interval: Imagine you ask 10 people how much they like a product, and you get an average score (mean). But if you asked another 10 people, the average might be different.
 
