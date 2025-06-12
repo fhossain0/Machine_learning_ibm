@@ -24,8 +24,8 @@ in this case , we are not specifying parameters
 A parametric model is aparticular type of statistical model : it is a also a set of distribution or regression, but they have a finite number of parameters
 
 An example of parametric model: the normal distribution 
+![Screenshot 2025-06-12 at 13 09 14](https://github.com/user-attachments/assets/c53ef797-fbaa-4fd0-b3ec-2a49598931c8)
 
-![](./Screenshot-2025-06-12-at-13.02.37.png)
 Example : customer lifetime value
 
 Customer lifetime value is an extimate of the customer's value to the company 
