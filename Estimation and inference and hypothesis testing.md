@@ -58,5 +58,50 @@ Commonly used distributions
 - the idea being that- if you took the loog of this variable, then you have the normal distribution
   ![Screenshot 2025-06-12 at 13 34 58](https://github.com/user-attachments/assets/c56fa367-e844-4ae1-a88f-34de259aefd8)
 
+#  exponential curve 
+
+What is going to be the amount of before the next event. 
+
+![Screenshot 2025-06-12 at 13 38 22](https://github.com/user-attachments/assets/705076a8-d5ea-40e4-adea-f8389f114e45)
+
+the time between you or some one else ends up watching this vedio. so the time will be, and then as soon as someone else watches, then you restart and mostly people are around one minute, whereas at some point there is  this long spread out, then you restart and mostly people are around one minute, where as at somepoint there is long spread out. some type of break that's likely to happen where it take 10 15 mints before the next person watches this vedio 
+
+# poisson distribution
+
+![Screenshot 2025-06-12 at 13 43 42](https://github.com/user-attachments/assets/99b54803-a016-495e-ad4f-25913bc80580)
+
+think like number of events happend during the certain amount of time.
+- We have the lambda, which is both the avrage value, and the variance value of the distribution. We can think here an exple is like how many people are ging to watch this vedio in next 10 minutes.
+- if the lambda was one then we said most of the time is only one person that watches every 10 minutes. and it's tight around that one, but if something like 10 people watch it evry 10 minutes. then you will probably have. more of the spread of your standerd diviation becuase it cloud be closer to 5 or 15 when you have a larger value.
+- and that's going to be your poisson distribution
+
+
+# Frequesntist vs Bayesian Statistics 
+A Frequentist is concerned with repeadted observation in the limit : We satrt with any idea for probabilities , we are trying to estimate so just to tie into a business example for both frequentist and bayesian how it works in regards to queuing theory 
+
+**Queuing theory :** The study of working with queues or lines and how many servers we need to match the size of that queue or the size of that line.
+So you can think about a grocery store how many cashiers we need to check out our customers in timely fashion this can be the web servers we will need in order to respond to all of the web pages requests and within an appropriate responsee sign or respond to all of the web page request . 
+
+
+**Frequesntist vs Bayesian Statistics both to estimate the probabilities of certain number of customers coming over a fixed time period**
+
+Processes may have true frequencies, but we are interested in modeling probabilities as many, many repeats of an experiment. 
+
+So we assume no prior knowledge of the true frequencies, insted we rely on the fact that if our sample is learge enough, if we seen enough cues or line. we can have a strong estimates and probabilities of a certain number of people that will that will come in given a fixed time period and the parameters of our poisson distribution then we can refer estimates of our probability, given that sample, many repeats of experiment togather as much of as possible in our frequentist approach 
+
+
+# Frequentist
+1. Drive the probabilistic property of a procedure
+2. Apply the probability directkly to the observed data
+
+# Bayesian 
+Now for Bayesian statistics, the parameters themselves can have a probability distribution. So rather than having a direct guess for the probability distribution and our uncertainty being around what their sample covered that population parameter, we provide probability distributions to the parameters themselves. In other words, the more data we have, the tighter that probability distribution will be around the parameter estimate that we have. Now, Bayesian also allows for experimenters to incorporate their prior beliefs of the distribution. For frequentists, it's going to be solely based on the data available. For the probability of seeing X amount of people in line during a certain time period, we can have actually an educated guess perhaps to start off with and Bayesian allows us to incorporate this into our prior distribution. 
+
+- The prior distribution is then updated after seeing the data. So we had our initial guess and after seeing more and more data, we can change what the distribution of our parameter estimate is. Then after updating the distribution, we then have our posterior distribution, which has now incorporated the data to update our guess of what that estimate will be.
+
+Now we use much of the same math and the same formulas for both frequentist and Bayesian statistics. The main element that's going to refer is essentially the interpretation as we discussed in terms of are we estimating how likely we are to cover the actual population mean? Or we coming up with a distribution for that population mean. We'll point out more along the way the difference in interpretation as appropriate. 
+
+
+So in this section, we discussed about the difference between inference and estimation and how at times machine learning may only focus on the estimation, whereas statistical inference will look to the underlying data generating process. We discussed parametric and non-parametric approaches of modeling, where parametric modeling will rely on assumptions of distributions and number of parameters, where non-parametric models will not have as strong of an assumption. We went through common statistical distributions and examples of where they would be used in the real world. Then finally, we introduced the idea behind frequentist and Bayesian statistics. This next section we'll begin to discuss hypothesis testing in both frequentist and Bayesian framework.
 
 
